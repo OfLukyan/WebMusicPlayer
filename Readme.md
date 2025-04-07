@@ -1,0 +1,1 @@
+Uma replica do spotify com alguma minimas mudanças 

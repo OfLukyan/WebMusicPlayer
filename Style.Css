@@ -36,6 +36,53 @@ header {
     height: 790px;
     border-radius: 10px;
 }
+.quiteUp {
+    width: 100%;
+    height: 290px;
+    background-color: rgba(240, 248, 255, 0.055);
+    display: flex;
+    align-items: center;
+}
+.quiteUp img {
+    width: 260px;
+    height: 260px;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.quiteUpLeft {
+    width: 300px;
+    height: 100%;
+    background-color: rgba(165, 42, 42, 0.096);
+}
+.quiteUpRight {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    background-color: rgba(0, 0, 255, 0.137);
+}
+.quiteUpRight span {
+    margin-left: 20px;
+    width: 720px;
+    height: 230px;
+    background-color: rgba(127, 255, 212, 0.274);
+}
+.quiteUpRight span {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+.quiteUpRight span p {
+margin: 0;
+}
+.quiteUpRight span h2 {
+    font-size: 100px;
+    margin: 0;
+}
 .right {
     width: 463px;
     overflow-x: hidden;
